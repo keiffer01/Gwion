@@ -10,8 +10,8 @@ ADD . /gwion
 WORKDIR /gwion
 
 # Build Step
-RUN make
+# RUN make
 
 # Package Stage
 FROM ubuntu:20.04
-COPY --from=builder /gwion/gwion /
+COPY --from=builder /gwion/gwion-fuzz /

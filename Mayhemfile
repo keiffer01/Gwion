@@ -1,5 +1,5 @@
 project: gwion
-target: gwion
+target: gwion-fuzz
 
 cmds:
   - cmd: /gwion-fuzz
